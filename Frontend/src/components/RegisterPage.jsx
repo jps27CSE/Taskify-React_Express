@@ -1,6 +1,5 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import { updateProfile } from "firebase/auth";
 import useAuth from "../hooks/useAuth";
 import { imageUpload } from "../api/utils";
 import { getToken, saveUser } from "../api/auth";
